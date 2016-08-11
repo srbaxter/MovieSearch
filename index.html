@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Movie Search</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>		
+</head>
+<body>
+	<h1>Search for a Movie</h1>
+	<div class="form">
+		<label for="title">Movie Title</label>
+		<input type="text" id="title" />
+		<button id="btnGetInfo">Get Movie Info</button>
+	</div>  
+	<div id="results" class="clear">
+		<div id="moviePcture">
+			<img id="poster"/>
+		</div>
+		<div id="movieTitle"></div>
+		<div id="movieGenre"></div>
+		<div id="movieDirector"></div>
+		<div id="movieActors"></div>
+		<div id="moviePlot"></div>
+	</div>
+</body>
+</html>
