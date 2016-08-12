@@ -13,16 +13,28 @@ h1 {
 }
 
 label, button {
-    font-size: 1.2em !important;
+    font-size: 1.1em !important;
+}
+
+button:focus {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;	
+	box-shadow: none !important;
 }
 
 img {
 	float: left;
-    width: 300px;
+    width: 350px;
     margin: 10px;
     overflow: hidden;
 }
 
 .clear {
 	overflow: auto;
+}
+
+.results {
+	width: 75%;
+	margin-left: 150px;
+	margin-right: 100px;
 }

@@ -21,7 +21,7 @@ function processData() {
         document.getElementById('movieGenre').innerHTML = "<p>Genre(s): " + genre + "</p>";
         document.getElementById('movieDirector').innerHTML = "<p>Director(s): " + director + "</p>";
         document.getElementById('movieActors').innerHTML = "<p>Actors: " + actors + "</p>";
-        document.getElementById('moviePlot').innerHTML = "<p>" + plot + "</p>";
+        document.getElementById('moviePlot').innerHTML = "<p>Plot: " + plot + "</p>";
         document.getElementById('results').style.border = "1px solid black";
         document.getElementById('results').style.margin = "50px 0";
     }
